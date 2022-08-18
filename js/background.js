@@ -8,6 +8,6 @@ const chosenImage = images[Math.floor(Math.random() * images.length)]; //이미�
 const bgImage = document.createElement("img"); //이미지 요소 생성
 
 bgImage.src = `../img/${chosenImage}`; //이미지 경로 설정
-console.log(bgImage);
+// console.log(bgImage);
 
 document.body.appendChild(bgImage); //img태그 body에 추가

@@ -20,7 +20,7 @@ function paintGreeting() {
 
 // 이전 방식과의 차이는 local storage를 두 번 열어본다는 것
 const savedUsername = localStorage.getItem(USERNAME_KEY);
-console.log(savedUsername);
+// console.log(savedUsername);
 
 if(savedUsername === null) {
     loginForm.classList.remove(HIDDEN_CLASSNAME);
